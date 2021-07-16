@@ -1,0 +1,50 @@
+/* colors */
+
+$primary-1: #1e2125;
+$primary-2: #1f2933;
+$primary-3: #616161;
+$primary-4: #bdbdbd;
+$primary-5: #e0e0e0;
+$primary-6: #fafafa;
+
+$accented-1: #323f4b;
+$accented-2: #3e4c59;
+$accented-3: #616367;
+$accented-4: #7b8794;
+$accented-5: #9aa5b1;
+$accented-6: #cbd2d9;
+$accented-7: #f5f7fa;
+
+$secondary-1: #c62828;
+$secondary-2: hsl(173, 75%, 49%);
+$secondary-3: hsl(29, 70%, 76%);
+
+/* Font */
+$primary-font: 'Roboto', sans-serif;
+$secondary-font: 'Open Sans', sans-serif;
+$font-weigth-1: 300;
+$font-weigth-2: 400;
+$font-weigth-3: 600;
+$font-size-0: 45px;
+$font-size-1: 24px;
+$font-size-2: 18px;
+$font-size-3: 14px;
+$font-size-4: 12px;
+$font-size-5: 16px;
+
+$transition: all 0.3s linear;
+$spacing: 0.1rem;
+$radius: 0.25rem;
+$light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+$dark-shadow: 0 5px 15px rgba(49, 49, 49, 0.4);
+$max-width: 1170px;
+$fixed-width: 620px;
+
+//distance
+$d0: 8px;
+$d1: 1rem;
+$d2: 1.5rem;
+$d3: 2rem;
+$d4: 24px;
+$d5: 50px;
+$d10: 100px;

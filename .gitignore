@@ -1,0 +1,5 @@
+/build
+/node_modules
+/log.md
+src/.DS_Store
+.DS_Store

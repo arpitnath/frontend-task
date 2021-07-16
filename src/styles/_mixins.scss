@@ -1,0 +1,16 @@
+@use './variables' as var;
+
+@mixin nav($bg, $color, $box-shadow: false) {
+  background: $bg;
+  height: 3rem;
+  display: grid;
+  align-items: center;
+  font-style: italic;
+  color: $color;
+  margin-bottom: 0;
+  font-weight: var.$font-weigth-3;
+
+  @if $box-shadow {
+    box-shadow: var.$dark-shadow;
+  }
+}

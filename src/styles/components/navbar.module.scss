@@ -1,0 +1,17 @@
+@use '../variables' as var;
+
+nav {
+  @include nav(var.$primary-1, var.$accented-7, true);
+}
+
+.nav-container {
+  width: 90vw;
+  max-width: var.$fixed-width;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-title {
+  margin-left: var.$d0;
+}
